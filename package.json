@@ -1,0 +1,16 @@
+{
+  "name": "@comerix/cli",
+  "version": "0.2.0",
+  "description": "Comerix CLI: pull, edit, check, preview and push Comerix store themes",
+  "type": "module",
+  "files": ["bin/", "lib/"],
+  "bin": {
+    "comerix": "bin/comerix.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
